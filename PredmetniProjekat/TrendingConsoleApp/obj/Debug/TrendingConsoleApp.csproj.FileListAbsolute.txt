@@ -1,0 +1,7 @@
+E:\STUDIJE\III_godina\V_semestar\Softver nadzorno-upravljackih sistema\projekat\PredmetniProjekat\TrendingConsoleApp\obj\Debug\TrendingConsoleApp.csprojAssemblyReference.cache
+E:\STUDIJE\III_godina\V_semestar\Softver nadzorno-upravljackih sistema\projekat\PredmetniProjekat\TrendingConsoleApp\obj\Debug\TrendingConsoleApp.csproj.CoreCompileInputs.cache
+E:\STUDIJE\III_godina\V_semestar\Softver nadzorno-upravljackih sistema\projekat\PredmetniProjekat\TrendingConsoleApp\bin\Debug\TrendingConsoleApp.exe.config
+E:\STUDIJE\III_godina\V_semestar\Softver nadzorno-upravljackih sistema\projekat\PredmetniProjekat\TrendingConsoleApp\bin\Debug\TrendingConsoleApp.exe
+E:\STUDIJE\III_godina\V_semestar\Softver nadzorno-upravljackih sistema\projekat\PredmetniProjekat\TrendingConsoleApp\bin\Debug\TrendingConsoleApp.pdb
+E:\STUDIJE\III_godina\V_semestar\Softver nadzorno-upravljackih sistema\projekat\PredmetniProjekat\TrendingConsoleApp\obj\Debug\TrendingConsoleApp.exe
+E:\STUDIJE\III_godina\V_semestar\Softver nadzorno-upravljackih sistema\projekat\PredmetniProjekat\TrendingConsoleApp\obj\Debug\TrendingConsoleApp.pdb

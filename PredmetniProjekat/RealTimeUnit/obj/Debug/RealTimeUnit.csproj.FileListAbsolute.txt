@@ -1,0 +1,7 @@
+E:\STUDIJE\III_godina\V_semestar\Softver nadzorno-upravljackih sistema\projekat\PredmetniProjekat\RealTimeUnit\bin\Debug\RealTimeUnit.exe.config
+E:\STUDIJE\III_godina\V_semestar\Softver nadzorno-upravljackih sistema\projekat\PredmetniProjekat\RealTimeUnit\bin\Debug\RealTimeUnit.exe
+E:\STUDIJE\III_godina\V_semestar\Softver nadzorno-upravljackih sistema\projekat\PredmetniProjekat\RealTimeUnit\bin\Debug\RealTimeUnit.pdb
+E:\STUDIJE\III_godina\V_semestar\Softver nadzorno-upravljackih sistema\projekat\PredmetniProjekat\RealTimeUnit\obj\Debug\RealTimeUnit.csprojAssemblyReference.cache
+E:\STUDIJE\III_godina\V_semestar\Softver nadzorno-upravljackih sistema\projekat\PredmetniProjekat\RealTimeUnit\obj\Debug\RealTimeUnit.csproj.CoreCompileInputs.cache
+E:\STUDIJE\III_godina\V_semestar\Softver nadzorno-upravljackih sistema\projekat\PredmetniProjekat\RealTimeUnit\obj\Debug\RealTimeUnit.exe
+E:\STUDIJE\III_godina\V_semestar\Softver nadzorno-upravljackih sistema\projekat\PredmetniProjekat\RealTimeUnit\obj\Debug\RealTimeUnit.pdb

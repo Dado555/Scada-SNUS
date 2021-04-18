@@ -1,0 +1,7 @@
+E:\STUDIJE\III_godina\V_semestar\Softver nadzorno-upravljackih sistema\projekat\PredmetniProjekat\AlarmDisplay\bin\Debug\AlarmDisplay.exe.config
+E:\STUDIJE\III_godina\V_semestar\Softver nadzorno-upravljackih sistema\projekat\PredmetniProjekat\AlarmDisplay\bin\Debug\AlarmDisplay.exe
+E:\STUDIJE\III_godina\V_semestar\Softver nadzorno-upravljackih sistema\projekat\PredmetniProjekat\AlarmDisplay\bin\Debug\AlarmDisplay.pdb
+E:\STUDIJE\III_godina\V_semestar\Softver nadzorno-upravljackih sistema\projekat\PredmetniProjekat\AlarmDisplay\obj\Debug\AlarmDisplay.csprojAssemblyReference.cache
+E:\STUDIJE\III_godina\V_semestar\Softver nadzorno-upravljackih sistema\projekat\PredmetniProjekat\AlarmDisplay\obj\Debug\AlarmDisplay.csproj.CoreCompileInputs.cache
+E:\STUDIJE\III_godina\V_semestar\Softver nadzorno-upravljackih sistema\projekat\PredmetniProjekat\AlarmDisplay\obj\Debug\AlarmDisplay.exe
+E:\STUDIJE\III_godina\V_semestar\Softver nadzorno-upravljackih sistema\projekat\PredmetniProjekat\AlarmDisplay\obj\Debug\AlarmDisplay.pdb

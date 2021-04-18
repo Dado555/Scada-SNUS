@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/CoreService" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/CoreService" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfAlarmData">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="AlarmData" nillable="true" type="tns:AlarmData" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAlarmData" nillable="true" type="tns:ArrayOfAlarmData" />
+  <xs:complexType name="AlarmData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Priority" type="xs:int" />
+      <xs:element minOccurs="0" name="Timestamp" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Value" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AlarmData" nillable="true" type="tns:AlarmData" />
+  <xs:complexType name="ArrayOfTagData">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="TagData" nillable="true" type="tns:TagData" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTagData" nillable="true" type="tns:ArrayOfTagData" />
+  <xs:complexType name="TagData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="TagId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Timestamp" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Value" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TagData" nillable="true" type="tns:TagData" />
+</xs:schema>

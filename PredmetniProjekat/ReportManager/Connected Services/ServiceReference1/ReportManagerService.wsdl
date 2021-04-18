@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ReportManagerService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:61526/ReportManagerService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:61526/ReportManagerService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:61526/ReportManagerService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/CoreService" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IReportManagerService_AlarmsFromToDate_InputMessage">
+    <wsdl:part name="parameters" element="tns:AlarmsFromToDate" />
+  </wsdl:message>
+  <wsdl:message name="IReportManagerService_AlarmsFromToDate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AlarmsFromToDateResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportManagerService_ByPriority_InputMessage">
+    <wsdl:part name="parameters" element="tns:ByPriority" />
+  </wsdl:message>
+  <wsdl:message name="IReportManagerService_ByPriority_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ByPriorityResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportManagerService_ValuesFromToDate_InputMessage">
+    <wsdl:part name="parameters" element="tns:ValuesFromToDate" />
+  </wsdl:message>
+  <wsdl:message name="IReportManagerService_ValuesFromToDate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ValuesFromToDateResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportManagerService_AIValues_InputMessage">
+    <wsdl:part name="parameters" element="tns:AIValues" />
+  </wsdl:message>
+  <wsdl:message name="IReportManagerService_AIValues_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AIValuesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportManagerService_DIValues_InputMessage">
+    <wsdl:part name="parameters" element="tns:DIValues" />
+  </wsdl:message>
+  <wsdl:message name="IReportManagerService_DIValues_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DIValuesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportManagerService_ValuesById_InputMessage">
+    <wsdl:part name="parameters" element="tns:ValuesById" />
+  </wsdl:message>
+  <wsdl:message name="IReportManagerService_ValuesById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ValuesByIdResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IReportManagerService">
+    <wsdl:operation name="AlarmsFromToDate">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportManagerService/AlarmsFromToDate" message="tns:IReportManagerService_AlarmsFromToDate_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportManagerService/AlarmsFromToDateResponse" message="tns:IReportManagerService_AlarmsFromToDate_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ByPriority">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportManagerService/ByPriority" message="tns:IReportManagerService_ByPriority_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportManagerService/ByPriorityResponse" message="tns:IReportManagerService_ByPriority_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ValuesFromToDate">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportManagerService/ValuesFromToDate" message="tns:IReportManagerService_ValuesFromToDate_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportManagerService/ValuesFromToDateResponse" message="tns:IReportManagerService_ValuesFromToDate_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AIValues">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportManagerService/AIValues" message="tns:IReportManagerService_AIValues_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportManagerService/AIValuesResponse" message="tns:IReportManagerService_AIValues_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DIValues">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportManagerService/DIValues" message="tns:IReportManagerService_DIValues_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportManagerService/DIValuesResponse" message="tns:IReportManagerService_DIValues_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ValuesById">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportManagerService/ValuesById" message="tns:IReportManagerService_ValuesById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportManagerService/ValuesByIdResponse" message="tns:IReportManagerService_ValuesById_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IReportManagerService" type="tns:IReportManagerService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AlarmsFromToDate">
+      <soap:operation soapAction="http://tempuri.org/IReportManagerService/AlarmsFromToDate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ByPriority">
+      <soap:operation soapAction="http://tempuri.org/IReportManagerService/ByPriority" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValuesFromToDate">
+      <soap:operation soapAction="http://tempuri.org/IReportManagerService/ValuesFromToDate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AIValues">
+      <soap:operation soapAction="http://tempuri.org/IReportManagerService/AIValues" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DIValues">
+      <soap:operation soapAction="http://tempuri.org/IReportManagerService/DIValues" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValuesById">
+      <soap:operation soapAction="http://tempuri.org/IReportManagerService/ValuesById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ReportManagerService">
+    <wsdl:port name="BasicHttpBinding_IReportManagerService" binding="tns:BasicHttpBinding_IReportManagerService">
+      <soap:address location="http://localhost:61526/ReportManagerService.svc/rms" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

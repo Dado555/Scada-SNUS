@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTag xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Tag xsi:type="DI">
+    <Id>di1</Id>
+    <Description>di1</Description>
+    <Address>1</Address>
+    <Type>DI</Type>
+    <Driver>SimulationDriver</Driver>
+    <ScanTime>5</ScanTime>
+    <Alarms />
+    <OnOff>false</OnOff>
+  </Tag>
+  <Tag xsi:type="DI">
+    <Id>di2</Id>
+    <Description>di2</Description>
+    <Address>2</Address>
+    <Type>DI</Type>
+    <Driver>SimulationDriver</Driver>
+    <ScanTime>6</ScanTime>
+    <Alarms />
+    <OnOff>false</OnOff>
+  </Tag>
+  <Tag xsi:type="DI">
+    <Id>di3</Id>
+    <Description>di3</Description>
+    <Address>3</Address>
+    <Type>DI</Type>
+    <Driver>SimulationDriver</Driver>
+    <ScanTime>7</ScanTime>
+    <Alarms />
+    <OnOff>false</OnOff>
+  </Tag>
+  <Tag xsi:type="AI">
+    <Id>ai1</Id>
+    <Description>ai1</Description>
+    <Address>1</Address>
+    <Type>AI</Type>
+    <Driver>SimulationDriver</Driver>
+    <ScanTime>5</ScanTime>
+    <Alarms>
+      <Alarm>
+        <Id>aai1</Id>
+        <Type>high</Type>
+        <Priority>2</Priority>
+        <TagId>ai1</TagId>
+        <Value>5</Value>
+      </Alarm>
+      <Alarm>
+        <Id>aai1-3</Id>
+        <Type>low</Type>
+        <Priority>1</Priority>
+        <TagId>ai1</TagId>
+        <Value>3</Value>
+      </Alarm>
+    </Alarms>
+    <OnOff>true</OnOff>
+    <LowLimit>1</LowLimit>
+    <HighLimit>7</HighLimit>
+  </Tag>
+  <Tag xsi:type="AI">
+    <Id>ai89</Id>
+    <Description>adihw</Description>
+    <Address>23</Address>
+    <Type>AI</Type>
+    <Driver>SimulationDriver</Driver>
+    <ScanTime>6</ScanTime>
+    <Alarms />
+    <OnOff>false</OnOff>
+    <LowLimit>-10</LowLimit>
+    <HighLimit>10</HighLimit>
+  </Tag>
+  <Tag xsi:type="AI">
+    <Id>ai3</Id>
+    <Description>ai3</Description>
+    <Address>3</Address>
+    <Type>AI</Type>
+    <Driver>SimulationDriver</Driver>
+    <ScanTime>7</ScanTime>
+    <Alarms />
+    <OnOff>false</OnOff>
+    <LowLimit>2</LowLimit>
+    <HighLimit>8</HighLimit>
+  </Tag>
+  <Tag xsi:type="DO">
+    <Id>do1</Id>
+    <Description>do1</Description>
+    <Address>4</Address>
+    <Type>DO</Type>
+    <InitialValue>1</InitialValue>
+  </Tag>
+  <Tag xsi:type="DO">
+    <Id>do2</Id>
+    <Description>do2</Description>
+    <Address>5</Address>
+    <Type>DO</Type>
+    <InitialValue>0</InitialValue>
+  </Tag>
+  <Tag xsi:type="DO">
+    <Id>do3</Id>
+    <Description>do3</Description>
+    <Address>6</Address>
+    <Type>DO</Type>
+    <InitialValue>1</InitialValue>
+  </Tag>
+  <Tag xsi:type="AO">
+    <Id>ao1</Id>
+    <Description>ao1</Description>
+    <Address>4</Address>
+    <Type>AO</Type>
+    <InitialValue>6</InitialValue>
+    <LowLimit>2</LowLimit>
+    <HighLimit>9</HighLimit>
+  </Tag>
+  <Tag xsi:type="AO">
+    <Id>ao2</Id>
+    <Description>ao2</Description>
+    <Address>5</Address>
+    <Type>AO</Type>
+    <InitialValue>7</InitialValue>
+    <LowLimit>1</LowLimit>
+    <HighLimit>12</HighLimit>
+  </Tag>
+  <Tag xsi:type="AO">
+    <Id>ao</Id>
+    <Description>ao</Description>
+    <Address>6</Address>
+    <Type>AO</Type>
+    <InitialValue>3</InitialValue>
+    <LowLimit>1</LowLimit>
+    <HighLimit>10</HighLimit>
+  </Tag>
+  <Tag xsi:type="AI">
+    <Id>ai99</Id>
+    <Description>awiodhawd</Description>
+    <Address>77</Address>
+    <Type>AI</Type>
+    <Driver>RealTimeDriver</Driver>
+    <ScanTime>7</ScanTime>
+    <Alarms>
+      <Alarm>
+        <Id>alarm1</Id>
+        <Type>high</Type>
+        <Priority>2</Priority>
+        <TagId>ai99</TagId>
+        <Value>0</Value>
+      </Alarm>
+    </Alarms>
+    <OnOff>true</OnOff>
+    <LowLimit>-8</LowLimit>
+    <HighLimit>8</HighLimit>
+  </Tag>
+  <Tag xsi:type="DO">
+    <Id>do8</Id>
+    <Description>awiohdi</Description>
+    <Address>2</Address>
+    <Type>DO</Type>
+    <InitialValue>1</InitialValue>
+  </Tag>
+</ArrayOfTag>

@@ -1,0 +1,7 @@
+E:\STUDIJE\III_godina\V_semestar\Softver nadzorno-upravljackih sistema\projekat\PredmetniProjekat\DatabaseManager\bin\Debug\DatabaseManager.exe.config
+E:\STUDIJE\III_godina\V_semestar\Softver nadzorno-upravljackih sistema\projekat\PredmetniProjekat\DatabaseManager\bin\Debug\DatabaseManager.exe
+E:\STUDIJE\III_godina\V_semestar\Softver nadzorno-upravljackih sistema\projekat\PredmetniProjekat\DatabaseManager\bin\Debug\DatabaseManager.pdb
+E:\STUDIJE\III_godina\V_semestar\Softver nadzorno-upravljackih sistema\projekat\PredmetniProjekat\DatabaseManager\obj\Debug\DatabaseManager.csprojAssemblyReference.cache
+E:\STUDIJE\III_godina\V_semestar\Softver nadzorno-upravljackih sistema\projekat\PredmetniProjekat\DatabaseManager\obj\Debug\DatabaseManager.csproj.CoreCompileInputs.cache
+E:\STUDIJE\III_godina\V_semestar\Softver nadzorno-upravljackih sistema\projekat\PredmetniProjekat\DatabaseManager\obj\Debug\DatabaseManager.exe
+E:\STUDIJE\III_godina\V_semestar\Softver nadzorno-upravljackih sistema\projekat\PredmetniProjekat\DatabaseManager\obj\Debug\DatabaseManager.pdb

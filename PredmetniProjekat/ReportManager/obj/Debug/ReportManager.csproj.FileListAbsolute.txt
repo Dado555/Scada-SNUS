@@ -1,0 +1,6 @@
+E:\STUDIJE\III_godina\V_semestar\Softver nadzorno-upravljackih sistema\projekat\PredmetniProjekat\ReportManager\bin\Debug\ReportManager.exe.config
+E:\STUDIJE\III_godina\V_semestar\Softver nadzorno-upravljackih sistema\projekat\PredmetniProjekat\ReportManager\bin\Debug\ReportManager.exe
+E:\STUDIJE\III_godina\V_semestar\Softver nadzorno-upravljackih sistema\projekat\PredmetniProjekat\ReportManager\bin\Debug\ReportManager.pdb
+E:\STUDIJE\III_godina\V_semestar\Softver nadzorno-upravljackih sistema\projekat\PredmetniProjekat\ReportManager\obj\Debug\ReportManager.csproj.CoreCompileInputs.cache
+E:\STUDIJE\III_godina\V_semestar\Softver nadzorno-upravljackih sistema\projekat\PredmetniProjekat\ReportManager\obj\Debug\ReportManager.exe
+E:\STUDIJE\III_godina\V_semestar\Softver nadzorno-upravljackih sistema\projekat\PredmetniProjekat\ReportManager\obj\Debug\ReportManager.pdb
