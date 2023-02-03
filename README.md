@@ -1,1 +1,1 @@
-# SNUS
+# Scada system, c#, entity framework
